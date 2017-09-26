@@ -1,0 +1,80 @@
+/* mixin.scss */
+header {
+  width: 100%;
+  padding: 1rem 4.236rem;
+  background: #24292e;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5); }
+  header::after {
+    content: ' ';
+    display: block;
+    clear: both; }
+
+header h1 {
+  font-weight: 100;
+  color: #fff; }
+  header h1 .github-icon {
+    margin-right: .3rem; }
+
+#search button, #search input {
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  background: #3f4448;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  -ms-border-radius: 0.2rem;
+  -o-border-radius: 0.2rem;
+  border-radius: 0.2rem; }
+
+#search input {
+  margin-right: 1rem;
+  margin-left: 1.618rem;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  color: #fff;
+  padding: 0.618rem 1.618rem; }
+  #search input:focus {
+    background: #4b4f53;
+    color: #fff; }
+
+#search button {
+  position: relative;
+  top: -.1rem;
+  width: 2.618rem;
+  height: 2.618rem;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #757575; }
+  #search button:focus, #search button:hover {
+    background: #4b4f53;
+    color: #fff; }
+
+.github-icon {
+  color: #fff;
+  transition: color 0.4s ease;
+  -webkit-transition: color 0.4s ease;
+  -moz-transition: color 0.4s ease;
+  -ms-transition: color 0.4s ease; }
+  .github-icon:hover {
+    color: #7A7A7A; }
+
+@media screen and (max-width: 48em) {
+  header {
+    padding: 1rem 1.618rem; }
+    header input {
+      margin-left: 2.618rem !important; }
+  header h1 {
+    text-align: center;
+    padding: 1rem 0; }
+  .form-container {
+    margin: 0 auto; } }

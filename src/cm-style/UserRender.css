@@ -1,0 +1,55 @@
+/* mixin.scss */
+#main .container {
+  padding: 0 4.236rem; }
+  #main .container .allUsers {
+    padding: 1rem;
+    margin-top: 1rem;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    border-radius: 0.5rem; }
+    #main .container .allUsers span.fa {
+      color: #333;
+      margin-right: .2rem; }
+  #main .container .items {
+    padding: 1.618rem; }
+  #main .container .user-img {
+    width: 100%;
+    max-height: auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid rgba(27, 31, 35, 0.15); }
+    #main .container .user-img:hover {
+      opacity: .8; }
+  #main .container a {
+    text-decoration: none; }
+  #main .container .user-id {
+    text-align: center;
+    padding: 0.618rem;
+    margin: 0.618rem;
+    background: rgba(51, 51, 51, 0.74);
+    color: #fff;
+    -webkit-border-radius: 1.618rem;
+    -moz-border-radius: 1.618rem;
+    -ms-border-radius: 1.618rem;
+    -o-border-radius: 1.618rem;
+    border-radius: 1.618rem;
+    transition: background 0.3s ease;
+    -webkit-transition: background 0.3s ease;
+    -moz-transition: background 0.3s ease;
+    -ms-transition: background 0.3s ease;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5); }
+    #main .container .user-id:hover {
+      background: rgba(51, 51, 51, 0.9); }
+
+.loading {
+  width: 100%;
+  text-align: center;
+  margin-top: 17.944rem;
+  color: #333;
+  font-size: 11.09rem !important; }
